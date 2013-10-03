@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.idctdo.android"
+    package="org.globalquakemodel.idctdo.android"
     android:versionCode="1"
-    android:versionName="0.2.11" >
+    android:versionName="1.0" >
 
     <uses-sdk android:minSdkVersion="8" />
 
@@ -14,13 +14,13 @@
     
     
     <application
-        android:name=".GEMSurveyObject"
+        android:name="org.globalquakemodel.idctdo.android.GEMSurveyObject"
         android:hardwareAccelerated="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/MyTheme" >
         <activity
-            android:name=".EQForm_MapView"
+            android:name="org.globalquakemodel.idctdo.android.EQForm_MapView"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -30,77 +30,77 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainTabActivity"
+            android:name="org.globalquakemodel.idctdo.android.MainTabActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".EQForm_Settings"
+            android:name="org.globalquakemodel.idctdo.android.EQForm_Settings"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Material_Selection_Longitudinal_Form"
+            android:name="org.globalquakemodel.idctdo.android.Material_Selection_Longitudinal_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Material_Selection_Longitudinal_Form2"
+            android:name="org.globalquakemodel.idctdo.android.Material_Selection_Longitudinal_Form2"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Material_Selection_Transverse_Form"
+            android:name="org.globalquakemodel.idctdo.android.Material_Selection_Transverse_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Material_Selection_Transverse_Form2"
+            android:name="org.globalquakemodel.idctdo.android.Material_Selection_Transverse_Form2"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LLRS_Selection_Longitudinal_Form"
+            android:name="org.globalquakemodel.idctdo.android.LLRS_Selection_Longitudinal_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SecondTabsActivity"
+            android:name="org.globalquakemodel.idctdo.android.SecondTabsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LLRS_Selection_Longitudinal_Transverse_Form"
+            android:name="org.globalquakemodel.idctdo.android.LLRS_Selection_Longitudinal_Transverse_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LLRS_Selection_Transverse_Form"
+            android:name="org.globalquakemodel.idctdo.android.LLRS_Selection_Transverse_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Roof_Selection_Form"
+            android:name="org.globalquakemodel.idctdo.android.Roof_Selection_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Floor_Selection_Form"
+            android:name="org.globalquakemodel.idctdo.android.Floor_Selection_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".EQForm_ModifiedEMS_Camera"
+            android:name="org.globalquakemodel.idctdo.android.EQForm_ModifiedEMS_Camera"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Irregularity_Selection_Form"
+            android:name="org.globalquakemodel.idctdo.android.Irregularity_Selection_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Irregularity_Selection_Secondary_Form"
+            android:name="org.globalquakemodel.idctdo.android.Irregularity_Selection_Secondary_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Details_Selection"
+            android:name="org.globalquakemodel.idctdo.android.Details_Selection"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Occupancy_Selection_Form"
+            android:name="org.globalquakemodel.idctdo.android.Occupancy_Selection_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Age_Selection_Form"
+            android:name="org.globalquakemodel.idctdo.android.Age_Selection_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Height_Selection_Form"
+            android:name="org.globalquakemodel.idctdo.android.Height_Selection_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Structure_Selection_Form"
+            android:name="org.globalquakemodel.idctdo.android.Structure_Selection_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Exposure_Form"
+            android:name="org.globalquakemodel.idctdo.android.Exposure_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Consequences_Form"
+            android:name="org.globalquakemodel.idctdo.android.Consequences_Form"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Project_Settings"
+            android:name="org.globalquakemodel.idctdo.android.Project_Settings"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PrefsActivity"
+            android:name="org.globalquakemodel.idctdo.android.PrefsActivity"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
     </application>
